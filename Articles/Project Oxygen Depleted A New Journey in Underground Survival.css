@@ -174,11 +174,6 @@ body {
     margin-bottom: 5px;
   }
   
-  .artText a {
-    color: #00f;
-    text-decoration: none;
-  }
-  
   .artText a:hover {
     text-decoration: underline;
   }
