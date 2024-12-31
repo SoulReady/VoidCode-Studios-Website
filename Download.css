@@ -307,3 +307,101 @@ body {
   .Rights {
     font-size: 14px;
   }
+
+/* Media Query for Phones */
+@media (max-width: 768px) {
+    /* Adjust the container */
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    body {
+        padding-top: 350px;
+    }
+
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 10px;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Logo */
+    .logo img {
+        height: 80px;
+    }
+
+    /* Game List and Items */
+    .game-list {
+        padding: 10px;
+    }
+
+    .game-item {
+        flex-direction: column; /* Stack game image and info vertically */
+        align-items: center;
+        text-align: center;
+    }
+
+    .game-image {
+        width: 100%; /* Full width for smaller screens */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 10px; /* Add space below the image */
+        margin-left: 10px;
+    }
+
+    .game-info {
+        padding: 10px;
+    }
+
+    .game-title {
+        font-size: 1.2em; /* Slightly smaller title for phones */
+    }
+
+    /* Platform Buttons */
+    .game-buttons {
+        align-items: center;
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 10px;
+    }
+
+    .platform-button a {
+        width: 100%; /* Full-width buttons */
+        text-align: center;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-socials {
+        margin-top: 10px;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .social-icon img {
+        width: 24px;
+    }
+}
